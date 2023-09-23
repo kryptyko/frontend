@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% 10% 80%;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+  }
+  
+  .server-frame {
+    background-color: #2C2F33;
+    padding: 10px;
+  }
+  
+  .server-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .server-list li {
+    margin-bottom: 10px;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  .server-list li.active {
+    font-weight: bold;
+  }
+  
+  .room-frame {
+    background-color: #7289DA;
+    padding: 10px;
+  }
+  
+  .room-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .room-list li {
+    margin-bottom: 10px;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  .room-list li.active {
+    font-weight: bold;
+  }
+  
+  .chat-frame {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-column: 3;
+  }
+  
+  #message-display {
+    background-color: #F2F3F5;
+    padding: 10px;
+  }
+  
+  .message-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F2F3F5;
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+  }
+  
+  .message-input button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #7289DA;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
